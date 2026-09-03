@@ -1,0 +1,49 @@
+/* Standalone navigation fallback for the Google Sites Takeout export. */
+#WDxLfe {
+  visibility: visible !important;
+}
+
+#s9iPrd {
+  cursor: pointer;
+}
+
+#s9iPrd:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+#static-nav-backdrop {
+  background: rgba(0, 0, 0, 0.45);
+  inset: 0;
+  position: fixed;
+  z-index: 69;
+}
+
+body.static-nav-open {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+  #WDxLfe {
+    display: none !important;
+  }
+
+  #yuynLe {
+    visibility: visible !important;
+  }
+
+  #yuynLe.jsnVQ {
+    left: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #WDxLfe {
+    display: table-cell !important;
+    visibility: visible !important;
+  }
+
+  #static-nav-backdrop {
+    display: none !important;
+  }
+}
